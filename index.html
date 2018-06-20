@@ -78,10 +78,6 @@
                         <li>
                             <div class="circle"></div>
                             <h4>Vue实战去哪儿app
-                                <a href="#" target="_blank">
-                                    <i class="icon-link"></i>
-                                    预览链接
-                                </a>
                                 <a href="https://github.com/jaycemxy/travel" target="_blank">
                                     <i class="icon-link"></i>
                                     源码链接
@@ -98,59 +94,97 @@
                 <li>
                         <dt>
                             <i class="iconfont icon-jishu"></i>Works. 小作品</dt>
-                        <li>
-                            <div class="circle"></div>
-                            <h4>快捷导航
-                                <a href="https://jaycemxy.github.io/nav-demo/" target="_blank">
-                                    <i class="icon-link"></i>
-                                    预览链接
-                                </a>
-                                <a href="https://github.com/jaycemxy/nav-demo" target="_blank">
-                                    <i class="icon-link"></i>
-                                    源码链接
-                                </a>
-                            </h4>
-                            <p>
-                                <i class="iconfont icon-shezhi"></i>
-                                技能点：用户通过键盘按键可直接跳转至相应的网站，同时支持自定义导航网址，通过localStorage存储该网站，也可以在搜索栏直接输入想要查询的内容
-                            </p>
-                        </li>
+                
+                            <li>
+                                <div class="circle"></div>
+                                <h4>动态简历
+                                    <a href="https://jaycemxy.github.io/animation-resume/" target="_blank">
+                                        <i class="icon-link"></i>
+                                        预览链接
+                                    </a>
+                                    <a href="https://github.com/jaycemxy/animation-resume" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码链接
+                                    </a>
+                                </h4>
+                                <p>
+                                    <i class="iconfont icon-shezhi"></i>
+                                    技术栈：prism 代码高亮技术、marked 解析并转换 markdown 内容</br>
+                                    - 使用 pre 标签使得代码保留原有样式、空格以及换行符</br>
+                                    - 引入 prism 对特定代码进行高亮处理，原理是给指定标签加上共同的类名，再给这些类名加上不同的样式，这些样式会覆盖先前设置的默认样式从而达到高亮的效果</br>
+                                    - 引入 marked 解析 markdown 格式的内容，将左边的自我介绍转成html文档的形式</br>
+                                </p>
+                            </li>
 
-                        <li>
-                            <div class="circle"></div>
-                            <h4>Canvas画板
-                                <a href="https://jaycemxy.github.io/canvas-demo/index.html" target="_blank">
-                                    <i class="icon-link"></i>
-                                    预览链接
-                                </a>
-                                <a href="https://github.com/jaycemxy/canvas-demo" target="_blank">
-                                    <i class="icon-link"></i>
-                                    源码链接
-                                </a>
-                            </h4>
-                            <p>
-                                <i class="iconfont icon-shezhi"></i>
-                                技能点：一个在线画板，使用了Canvas常用的API，通过iconfont引入画笔、垃圾桶等小图标，同时支持画笔颜色和粗细的选择、橡皮擦、清空和下载等功能
-                            </p>
-                        </li>
+                            <li>
+                                <div class="circle"></div>
+                                <h4>Canvas画板
+                                    <a href="https://jaycemxy.github.io/canvas-demo/index.html" target="_blank">
+                                        <i class="icon-link"></i>
+                                        预览链接
+                                    </a>
+                                    <a href="https://github.com/jaycemxy/canvas-demo" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码链接
+                                    </a>
+                                </h4>
+                                <p>
+                                    <i class="iconfont icon-shezhi"></i>
+                                    技能点：一个在线画板，学习实践了部分 Canvas 的常用API；通过 iconfont 网站，引入橡皮擦、垃圾桶等小图标，同时支持画笔颜色和粗细的选择、清空画板和下载等功能；通过对 body 元素身上的 ontouchstart 特性检测来判断用户是在触屏设备还是非触屏设备上的操作，触屏设备监听 touch 事件，非触屏设备监听 mouse 事件
+                                </p>
+                            </li>
 
-                        <li>
-                            <div class="circle"></div>
-                            <h4>会动的小黄人
-                                <a href="https://jaycemxy.github.io/minion-demo/" target="_blank">
-                                    <i class="icon-link"></i>
-                                    预览链接
-                                </a>
-                                <a href="https://github.com/jaycemxy/minion-demo" target="_blank">
-                                    <i class="icon-link"></i>
-                                    源码链接
-                                </a>
-                            </h4>
-                            <p>
-                                <i class="iconfont icon-shezhi"></i>
-                                技能点：通过动态向style标签添加样式，实现一边展示代码一边画动画的效果，同时设置了调速按钮，用户可以自行控制动画播放速度。
-                            </p>
-                        </li>
+                        
+                            <li>
+                                <div class="circle"></div>
+                                <h4>快捷导航
+                                    <a href="https://jaycemxy.github.io/nav-demo/" target="_blank">
+                                        <i class="icon-link"></i>
+                                        预览链接
+                                    </a>
+                                    <a href="https://github.com/jaycemxy/nav-demo" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码链接
+                                    </a>
+                                </h4>
+                                <p>
+                                    <i class="iconfont icon-shezhi"></i>
+                                    技能点：用户通过键盘按键可直接跳转至相应的网站，localStorage 中存储了定义好的网址，同时也支持用户自定义导航网址，定义好的网址也将被存入 localStorage 的hash表中；右上角设置了搜索栏，因为定义了当输入框聚焦的时候取消事件监听，失焦时候重新监听的函数，所以不会导致用户在输入时跳转至每个字母默认定义在 localStorage 中的那个网址
+                                </p>
+                            </li>
+
+                            <li>
+                                <div class="circle"></div>
+                                <h4>会动的小黄人
+                                    <a href="https://jaycemxy.github.io/minion-demo/" target="_blank">
+                                        <i class="icon-link"></i>
+                                        预览链接
+                                    </a>
+                                    <a href="https://github.com/jaycemxy/minion-demo" target="_blank">
+                                        <i class="icon-link"></i>
+                                        源码链接
+                                    </a>
+                                </h4>
+                                <p>
+                                    <i class="iconfont icon-shezhi"></i>
+                                    技能点：通过动态向 style 标签添加样式，实现一边展示代码一边画动画的效果；同时设置了调速按钮，在这里我们会想到加入一个新变量 setInterval，修改它的秒数为的 dutation，但是存在一个问题是在进入 setInterval 这个函数时，只会读取一次 duration 的值，所以不能做调速的修改，解决方法是使用 setTimeout 来模拟一个延时递归
+                                </p>
+                            </li>
+
+                            <li>
+                                    <div class="circle"></div>
+                                    <h4>个人主页
+                                        <a href="https://jaycemxy.github.io/resume/" target="_blank">
+                                            <i class="icon-link"></i>
+                                            预览链接
+                                        </a>
+                                        <a href="https://github.com/jaycemxy/resume" target="_blank">
+                                            <i class="icon-link"></i>
+                                            源码链接
+                                        </a>
+                                    </h4>
+                            </li>
+
                     </ul>
                 </li>
             </li>
