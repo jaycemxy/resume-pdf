@@ -355,3 +355,18 @@ h4 > a {
     font-size: 14px;
     color: #00BCD4;
 }
+
+/* 网易云音乐手机预览的二维码图片 */
+.hover-qr-code {
+    display: none;
+}
+
+a:hover>.hover-qr-code {
+    display: block;
+    position: absolute;
+    background-color: #ddd;
+    width: 80px;
+    height: 80px;
+    left: 300px;
+    top: -50px;
+}
