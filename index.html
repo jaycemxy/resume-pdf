@@ -32,9 +32,9 @@
                 <li class="someRight">
                     <dt>基本信息</dt>
                     <dd title="性别">
-                        <i class="iconfont icon-sex"></i>马心悦/女/22岁</dd>
+                        <i class="iconfont icon-sex"></i>马心悦/22岁</dd>
                     <dd>
-                        <i class="iconfont icon-edu"></i>本科/西安工业大学/CET6</dd>
+                        <i class="iconfont icon-edu"></i>本科/西安工业大学/英语6级</dd>
                     <dd>
                         <i class="iconfont icon-github"></i>
                         <a href="https://github.com/jaycemxy" target="_blank">Github</a>
@@ -42,6 +42,14 @@
                     <dd>
                         <i class="iconfont icon-bokeblogger3"></i>
                         <a href="https://jaycemxy.github.io" target="_blank">https://jaycemxy.github.io</a>
+                    </dd>
+                </li>
+                <li class="someRight">
+                    <dt>想说的话</dt>
+                    <dd>
+                        坚信一份执着，一份收获</br>
+                        尝试不擅长的东西会看到更多</br>
+                        去碰壁和成长都是有趣的事</br>
                     </dd>
                 </li>
             </ul>
@@ -68,11 +76,10 @@
                             </h4>
                             <p>
                                 <i class="iconfont icon-shezhi"></i>
-                                技术栈：jQuery、CSS3、七牛云端数据管理、ajax异步请求</br>
-                                - 实践移动端布局，学习响应式原理以及动态rem方案，sass工具转译px单位</br>
-                                - ajax异步请求主页面和最新音乐的数据，歌曲上传至七牛云端管理</br>
-                                - 搜索tab的函数节流问题，设置定时器，setTimeout等待用户输入搜索结果</br>
-                                - 优化json数据的请求，attr设置data-downloaded属性，防止多次请求相同的json文件</br>
+                                技术栈：jQuery、CSS 3、HTML 5、七牛云数据管理</br>
+                                - 实践移动端布局，学习响应式原理以及动态rem</br>
+                                - 实现推荐音乐、热歌榜展示歌曲列表</br>
+                                - 歌曲播放、暂停功能，歌词滚动</br>
                             </p>
                         </li>
 
@@ -110,10 +117,10 @@
                                 </h4>
                                 <p>
                                     <i class="iconfont icon-shezhi"></i>
-                                    技术栈：prism 代码高亮技术、marked 解析并转换 markdown 内容</br>
-                                    - 使用 pre 标签使得代码保留原有样式、空格以及换行符</br>
-                                    - 引入 prism 对特定代码进行高亮处理，原理是给指定标签加上共同的类名，再给这些类名加上不同的样式，这些样式会覆盖先前设置的默认样式从而达到高亮的效果</br>
-                                    - 引入 marked 解析 markdown 格式的内容，将左边的自我介绍转成html文档的形式</br>
+                                    技术栈：prism 代码高亮、marked 解析 markdown 内容</br>
+                                    - 向style标签动态添加样式，pre 标签保留代码原有样式</br>
+                                    - 引入 prism 对特定代码进行高亮处理</br>
+                                    - marked 将md内容转换成 html</br>
                                 </p>
                             </li>
 
@@ -131,7 +138,10 @@
                                 </h4>
                                 <p>
                                     <i class="iconfont icon-shezhi"></i>
-                                    技能点：一个在线画板，学习实践了部分 Canvas 的常用API；通过 iconfont 网站，引入橡皮擦、垃圾桶等小图标，同时支持画笔颜色和粗细的选择、清空画板和下载等功能；通过对 body 元素身上的 ontouchstart 特性检测来判断用户是在触屏设备还是非触屏设备上的操作，触屏设备监听 touch 事件，非触屏设备监听 mouse 事件
+                                    技术栈：原生Javascript、canvas元素API</br>
+                                    - 实现画笔粗细、颜色选择，橡皮擦及清除功能</br>
+                                    - 支持本地保存</br>
+                                    - 移动端在线绘画功能</br>
                                 </p>
                             </li>
 
@@ -150,7 +160,10 @@
                                 </h4>
                                 <p>
                                     <i class="iconfont icon-shezhi"></i>
-                                    技能点：用户通过键盘按键可直接跳转至相应的网站，localStorage 中存储了定义好的网址，同时也支持用户自定义导航网址，定义好的网址也将被存入 localStorage 的hash表中；右上角设置了搜索栏，因为定义了当输入框聚焦的时候取消事件监听，失焦时候重新监听的函数，所以不会导致用户在输入时跳转至每个字母默认定义在 localStorage 中的那个网址
+                                    技能点：原生Javascript、localStorage在线存储</br>
+                                    - 快捷导航，敲击键盘字母跳转绑定网页</br>
+                                    - 支持导航键自主编辑功能</br>
+                                    - 支持百度谷歌引擎搜索功能</br>
                                 </p>
                             </li>
 
@@ -168,24 +181,12 @@
                                 </h4>
                                 <p>
                                     <i class="iconfont icon-shezhi"></i>
-                                    技能点：通过动态向 style 标签添加样式，实现一边展示代码一边画动画的效果；同时设置了调速按钮，在这里我们会想到加入一个新变量 setInterval，修改它的秒数为的 dutation，但是存在一个问题是在进入 setInterval 这个函数时，只会读取一次 duration 的值，所以不能做调速的修改，解决方法是使用 setTimeout 来模拟一个延时递归
+                                    技能点：基于jQuery，style 和 pre标签</br>
+                                    - 动态向 style 标签添加样式，pre标签添加文本</br>
+                                    - 实现同时显示代码和绘制的过程</br>
+                                    - 动画可调速</br>
                                 </p>
                             </li>
-
-                            <li>
-                                    <div class="circle"></div>
-                                    <h4>个人主页
-                                        <a href="https://jaycemxy.github.io/resume/" target="_blank">
-                                            <i class="icon-link"></i>
-                                            预览链接
-                                        </a>
-                                        <a href="https://github.com/jaycemxy/resume" target="_blank">
-                                            <i class="icon-link"></i>
-                                            源码链接
-                                        </a>
-                                    </h4>
-                            </li>
-
                     </ul>
                 </li>
             </li>
@@ -197,31 +198,45 @@
                             <div class="circle"></div>
                             <h4>HTML&amp;CSS</h4>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>编写符合 html5 语义化的页面结构</p>
+                                <i class="iconfont icon-shezhi"></i>根据 HTML5 标准编写语义化的文档结构</p>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>熟悉常见布局，内联元素以及块级元素的水平居中、四种以上垂直居中方式</p>
+                                <i class="iconfont icon-shezhi"></i>CSS布局：内联元素以及块级元素的水平居中、四种以上垂直居中方式</p>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>移动端适配，meta标签，响应式布局，动态rem方案、sass转译</p>
+                                <i class="iconfont icon-shezhi"></i>移动端使用meta标签，media媒体查询，动态rem编写响应式布局</p>
 
                             <div class="circle"></div>
                             <h4>JavaScript</h4>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>学习了 JavaScript ES6语法，实践ES6中的类，以及extends继承的写法</p>
+                                <i class="iconfont icon-shezhi"></i>学习了ES6语法，let、const、块级作用域、箭头函数，了解类的概念，以及extends继承的写法</p>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>熟悉闭包、JS原型链、promise及await的用法、ajax异步请求、跨域等重要知识</p>
+                                <i class="iconfont icon-shezhi"></i>熟悉闭包、原型链、promise及await的用法、ajax异步请求、单线程等重要知识</p>
                             <p>
                                 <i class="iconfont icon-shezhi"></i>jQuery常用API，能使用jQuery制作轮播</p>
 
                             <div class="circle"></div>
-                            <h4>其它</h4>
+                            <h4>HTTP</h4>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>理解http协议、基本状态码、GET和POST请求</p>
+                                <i class="iconfont icon-shezhi"></i>了解http基础知识、基本状态码、使用开发者工具查看请求和响应</p>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>学习Vue框架，实践了组件通信、双向绑定原理、Vue Router、vuex等</p>
+                                <i class="iconfont icon-shezhi"></i>理解cookie、localStorage缓存机制、同源策略，跨域的基本方式</p>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>理解MVVM思想，熟悉git、Chrome等基本开发者工具的使用</p>
+                                <i class="iconfont icon-shezhi"></i>了解页面加载过程，浏览器运行机制</p>
+
+                            <div class="circle"></div>
+                            <h4>vue</h4>
                             <p>
-                                <i class="iconfont icon-shezhi"></i>学习了前端工程化思想，了解基本的Web安全知识</p>
+                                <i class="iconfont icon-shezhi"></i>学习了Vue框架，实践了父子组件通信、数据双向绑定以及响应式的原理</p>
+                            <p>
+                                <i class="iconfont icon-shezhi"></i>使用vue-router制作前端路由，并用vuex进行数据的状态管理</p>
+
+                            <div class="circle"></div>
+                            <h4>工具及思想</h4>
+                            <p>
+                                <i class="iconfont icon-shezhi"></i>使用git常用命令、Chrome等基本开发者工具的使用</p>
+                            <p>
+                                <i class="iconfont icon-shezhi"></i>实践了MVC思想组织代码，组件化模块化各功能代码</p>
+                            <p>
+                                <i class="iconfont icon-shezhi"></i>了解基本的Web安全知识，使用webpack进行基础打包</p>
                         </li>
                     </ul>
 
