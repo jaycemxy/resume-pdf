@@ -282,7 +282,7 @@ h5 {
     margin-right: 2px
 }
 
-h4 > a {
+.demo > .desc > p > a {
     font-size: 12px;
     border: 1px solid #f25d8e;
     padding: 1px 3px;
@@ -369,4 +369,12 @@ a:hover>.hover-qr-code {
     height: 80px;
     left: 300px;
     top: -50px;
+}
+
+.demo {
+    display: flex;
+}
+.demo .desc {
+    width: 420px;
+    height: 200px;
 }
