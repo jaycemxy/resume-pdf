@@ -312,7 +312,8 @@ h5 {
     font-size: 15px;
     color: #616161;
     line-height: 23px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    margin-right: 15px;
 }
 
 .exp>li {
@@ -367,8 +368,8 @@ a:hover>.hover-qr-code {
     background-color: #ddd;
     width: 80px;
     height: 80px;
-    left: 300px;
-    top: -50px;
+    left: 180px;
+    top: 210px;
 }
 
 .demo {
