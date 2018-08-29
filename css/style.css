@@ -374,6 +374,7 @@ a:hover>.hover-qr-code {
 
 .demo {
     display: flex;
+    margin-left: 10px;
 }
 .demo .desc {
     width: 420px;
