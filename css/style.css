@@ -211,7 +211,12 @@ h2 {
 }
 
 .main a {
-    color: #f25d8e
+    color: #f25d8e;
+    font-size: 12px;
+    border: 1px solid #f25d8e;
+    padding: 1px 3px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .main .iconfont {
